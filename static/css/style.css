@@ -68,7 +68,7 @@ html {
 }
 
 body {
-  font-family: monospace;
+/*  font-family: monospace;*/
   font-size: 1.6rem;
   line-height: 1.35;
   max-width: 64rem;
@@ -76,6 +76,7 @@ body {
   overflow-wrap: break-word;
   background: var(--bgColor);
   color: var(--fgColor);
+  font: 400 15px/1.7 "Bitter","Hiragino Sans GB","Microsoft Yahei","微软雅黑","Bitter",sans-serif;
 }
 
 h1 {
@@ -342,7 +343,10 @@ textarea {
 .webring {
   margin: 0.5rem;
 }
-
+.footGif {
+    width: 105px;
+    image-rendering: optimizeQuality;
+}
 /* Add Padding */
 @media (max-width: 650px) {
   .wrapper {
